@@ -1,0 +1,45 @@
+name: restaurant
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.2.0
+  flutter_advanced_networkimage: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand_medium.ttf
+          style: normal
+        - asset: assets/fonts/quicksand_bold.otf
+          weight: 700
+
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/raleway_regular.ttf
+          style: normal
+
+    - family: KoHo
+      fonts:
+        - asset: assets/fonts/koho_regular.ttf
+          weight: 400
+        - asset: assets/fonts/koho_bold.ttf
+          weight: 700
